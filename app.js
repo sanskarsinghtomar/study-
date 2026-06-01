@@ -158,7 +158,7 @@ function createSeedState() {
   return {
     version: 2,
     profile: {
-      name: "Aanya",
+      name: "User",
       quote: "Discipline today, success tomorrow."
     },
     focus: {
