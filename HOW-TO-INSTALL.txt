@@ -1,0 +1,22 @@
+STUDY OS APP - INSTALL GUIDE
+
+1. Unzip Study-OS-App.zip.
+2. Open the unzipped study-os-app folder.
+3. Double-click Start-Study-OS-App.bat.
+4. A browser window will open at http://localhost:8765.
+5. In Microsoft Edge or Chrome:
+   - Click the install icon in the address bar, or
+   - Open the three-dot menu, then choose Apps / Install this site as an app.
+6. In Study OS, click Alerts, then Enable Notifications.
+7. Allow notifications in the browser popup.
+8. Keep this folder on your computer. Your Study OS data is saved in your browser.
+
+Quick use without installing:
+Double-click index.html.
+
+Important:
+For the install option, use Start-Study-OS-App.bat instead of opening index.html directly.
+
+Notifications:
+- Works best when opened through Start-Study-OS-App.bat.
+- The app/browser must be running for class, exam, calendar, study, revision, and focus alerts to fire reliably.

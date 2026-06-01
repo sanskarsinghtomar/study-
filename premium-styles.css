@@ -1,0 +1,455 @@
+/* Premium Scrollbar Styling */
+.notes-sidebar::-webkit-scrollbar-track,
+.notes-main::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.notes-sidebar::-webkit-scrollbar-thumb,
+.notes-main::-webkit-scrollbar-thumb {
+  background: rgba(192, 97, 255, 0.3);
+  border-radius: 3px;
+}
+
+.notes-sidebar::-webkit-scrollbar-thumb:hover,
+.notes-main::-webkit-scrollbar-thumb:hover {
+  background: rgba(192, 97, 255, 0.5);
+}
+
+/* Additional Font Styling Variations */
+.brand h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}
+
+.greeting h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.exam-copy h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 29px;
+}
+
+.eyebrow {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 700;
+}
+
+.panel-heading p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.quick-note h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.note-heading h3 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.revision-item strong {
+  font-family: 'Roboto Slab', serif;
+}
+
+.topic-card h4 {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.crumbs strong {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.tabbar button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.command-bar button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.primary-action {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.study-actions button {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Dynamic Typography Enhancement */
+.greeting p {
+  font-family: 'IBM Plex Serif', serif;
+  font-style: italic;
+}
+
+.quote-card p {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+.smart-notes-hub {
+  margin-top: 28px;
+  padding: 28px;
+  border-radius: 28px;
+  background: rgba(14, 8, 24, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 36px 95px rgba(0, 0, 0, 0.28);
+}
+
+.notes-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.notes-header .notes-title,
+.brand h1,
+.exam-copy h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.notes-subtitle {
+  font-family: 'IBM Plex Serif', serif;
+  color: var(--soft);
+  font-size: 0.96rem;
+  margin: 0;
+}
+
+.notes-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 18px;
+  position: relative;
+  z-index: 10;
+  min-width: 0;
+}
+
+.notes-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.filter-select {
+  min-width: 140px;
+  max-width: 260px;
+  width: clamp(140px, 20vw, 250px);
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--ink);
+  cursor: pointer;
+  position: relative;
+  z-index: 12;
+  appearance: auto;
+  -webkit-appearance: menulist;
+}
+
+.notes-add-btn {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(192,97,255,0.95), rgba(255,173,98,0.95));
+  color: #110c18;
+  border: none;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+  flex: 0 0 auto;
+  margin-left: auto;
+  position: relative;
+  z-index: 12;
+  pointer-events: auto;
+}
+
+.notes-container {
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) minmax(0, 1fr);
+  gap: 18px;
+}
+
+.notes-sidebar,
+.notes-main {
+  border-radius: 22px;
+  background: rgba(23, 14, 35, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  z-index: 1;
+}
+
+.notes-sidebar {
+  padding: 18px;
+  min-height: 500px;
+  max-height: 680px;
+  overflow-y: auto;
+}
+
+.notes-main {
+  padding: 22px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.note-viewer {
+  min-height: 420px;
+  flex: 1;
+}
+
+.empty-note-state {
+  display: grid;
+  place-items: center;
+  min-height: 320px;
+  color: var(--soft);
+  opacity: 0.92;
+  text-align: center;
+  padding: 26px;
+  border: 1px dashed rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+}
+
+.notes-subtitle,
+.panel-heading p,
+.note-heading h3,
+.topic-card h4,
+.notes-tree,
+.month-row,
+.wide-button,
+.tabbar button,
+.command-bar button,
+.primary-action,
+.study-actions button,
+a,
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.note-viewer,
+.note-section,
+.note-text,
+.note-viewer small,
+.note-viewer p,
+.note-viewer li,
+.note-viewer dt,
+.note-viewer dd {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.note-attachment {
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #f1e7ff;
+  font-size: 0.92rem;
+}
+
+.note-attachment strong {
+  display: inline-block;
+  margin-right: 6px;
+  color: #d5b4ff;
+}
+
+.note-attachment span {
+  display: inline-block;
+  margin-left: 10px;
+  opacity: 0.72;
+  font-size: 0.84rem;
+}
+
+.note-text pre {
+  font-family: 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+  font-size: 0.92rem;
+  background: rgba(255, 255, 255, 0.05);
+  color: #e5e5ff;
+  border-radius: 16px;
+  padding: 16px;
+  overflow-x: auto;
+  margin: 16px 0 0;
+}
+
+.note-text code {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 2px 6px;
+  color: #ffd6e0;
+}
+
+.notes-tree {
+  font-family: 'Space Grotesk', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notes-tree .tree-subject,
+.notes-tree .tree-chapter,
+.notes-tree .tree-topic {
+  border-radius: 14px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background 200ms ease, transform 200ms ease;
+}
+
+.notes-tree .tree-subject:hover,
+.notes-tree .tree-chapter:hover,
+.notes-tree .tree-topic:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateX(1px);
+}
+
+.notes-tree .active {
+  background: rgba(192, 97, 255, 0.22);
+}
+
+.notes-filters select,
+.notes-filters button,
+.form-control,
+input,
+select,
+textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+.pw-classes-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 220px;
+  gap: 14px;
+}
+
+.pw-classes-panel p {
+  font-family: 'IBM Plex Serif', serif;
+  color: var(--soft);
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.pw-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 80px;
+  padding: 16px 18px;
+  background: linear-gradient(135deg, rgba(77,130,255,0.92), rgba(192,97,255,0.92));
+  border-radius: 24px;
+  border: 1px solid rgba(255,255,255,0.14);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+.pw-button span {
+  display: block;
+  text-align: center;
+}
+
+.nav-item {
+  font-family: 'Inter', sans-serif;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.wide-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.month-row {
+  font-family: 'Poppins', sans-serif;
+}
+
+.legend {
+  font-family: 'Inter', sans-serif;
+}
+
+.class-item strong {
+  font-family: 'Roboto Slab', serif;
+}
+
+.class-item small {
+  font-family: 'IBM Plex Serif', serif;
+}
+
+/* Final Scrollbar for Dashboard */
+.dashboard-grid::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.dashboard-grid::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dashboard-grid::-webkit-scrollbar-thumb {
+  background: rgba(192, 97, 255, 0.2);
+  border-radius: 4px;
+}
+
+.dashboard-grid::-webkit-scrollbar-thumb:hover {
+  background: rgba(192, 97, 255, 0.4);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Selection Styling */
+::selection {
+  background: rgba(192, 97, 255, 0.3);
+  color: #fff6fb;
+}
+
+::-moz-selection {
+  background: rgba(192, 97, 255, 0.3);
+  color: #fff6fb;
+}
+
+/* Input Placeholder Styling */
+::placeholder {
+  color: rgba(205, 184, 214, 0.5);
+  font-family: 'IBM Plex Serif', serif;
+}
+
+:-ms-input-placeholder {
+  color: rgba(205, 184, 214, 0.5);
+}
+
+::-ms-input-placeholder {
+  color: rgba(205, 184, 214, 0.5);
+}

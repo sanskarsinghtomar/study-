@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Study OS app icon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#3d1a43"/>
+      <stop offset=".45" stop-color="#171225"/>
+      <stop offset="1" stop-color="#7f2ea8"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffd17e"/>
+      <stop offset=".45" stop-color="#f178ff"/>
+      <stop offset="1" stop-color="#8a5cff"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <circle cx="384" cy="118" r="76" fill="#ef7aff" opacity=".28" filter="url(#soft)"/>
+  <circle cx="120" cy="390" r="90" fill="#ffae62" opacity=".22" filter="url(#soft)"/>
+  <path d="M150 138h162c38 0 68 30 68 68v192H198c-27 0-48-21-48-48V138z" fill="#22142d" stroke="#f1b7ff" stroke-opacity=".55" stroke-width="12"/>
+  <path d="M194 170h160c35 0 62 28 62 62v164h-36V224c0-27-22-48-48-48H194z" fill="#3c2154" opacity=".82"/>
+  <path d="M190 244h130M190 292h154M190 340h102" stroke="#f8d8ff" stroke-linecap="round" stroke-width="18" opacity=".9"/>
+  <path d="M349 88l18 36 40 6-29 28 7 40-36-19-36 19 7-40-29-28 40-6z" fill="url(#glow)"/>
+  <path d="M116 140c46 48 60 108 40 170-13 42-39 70-78 84 66 6 119-21 151-74 42-70 17-159-50-210" fill="none" stroke="url(#glow)" stroke-width="18" stroke-linecap="round" opacity=".92"/>
+</svg>

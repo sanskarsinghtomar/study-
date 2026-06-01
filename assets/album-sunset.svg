@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Sunset album art">
+  <defs>
+    <linearGradient id="sunset" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#4932be"/>
+      <stop offset=".43" stop-color="#e0529c"/>
+      <stop offset=".72" stop-color="#ffad61"/>
+      <stop offset="1" stop-color="#1a1121"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" x2="1">
+      <stop offset="0" stop-color="#351944"/>
+      <stop offset=".5" stop-color="#f6b060"/>
+      <stop offset="1" stop-color="#271936"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="22" fill="url(#sunset)"/>
+  <circle cx="83" cy="60" r="24" fill="#ffd37c"/>
+  <path d="M0 91c28-24 46-24 72 0 24-23 54-23 88 0v69H0z" fill="#291437" opacity=".8"/>
+  <path d="M68 93h28l24 67H45z" fill="url(#road)" opacity=".92"/>
+  <path d="M82 96v60" stroke="#fff2bd" stroke-width="3" opacity=".55"/>
+  <g stroke="#281329" stroke-width="10" stroke-linecap="round" opacity=".85">
+    <path d="M26 108h18M112 110h25M16 126h27M116 132h30"/>
+  </g>
+</svg>

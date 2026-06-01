@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Cozy evening study room background">
+  <defs>
+    <linearGradient id="room" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#371427"/>
+      <stop offset=".34" stop-color="#171225"/>
+      <stop offset=".72" stop-color="#0d1120"/>
+      <stop offset="1" stop-color="#311629"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffae68" stop-opacity=".95"/>
+      <stop offset=".56" stop-color="#e15db3" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#4a2d8f" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8b0cf" stop-opacity=".34"/>
+      <stop offset=".5" stop-color="#a35df1" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#050510" stop-opacity=".36"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#room)"/>
+  <rect x="-80" y="0" width="420" height="1000" fill="url(#sun)" opacity=".72"/>
+  <g opacity=".52">
+    <rect x="36" y="0" width="74" height="1000" fill="#fff0bd" opacity=".10"/>
+    <rect x="154" y="0" width="92" height="1000" fill="#ff8acb" opacity=".08"/>
+    <rect x="1326" y="0" width="64" height="1000" fill="#ffe2a8" opacity=".07"/>
+    <rect x="1442" y="0" width="78" height="1000" fill="#ff83bd" opacity=".06"/>
+  </g>
+  <g opacity=".52" stroke="#ffd6bd" stroke-width="3">
+    <path d="M1320 120h250v360h-250z" fill="url(#glass)"/>
+    <path d="M1445 120v360M1320 260h250" opacity=".32"/>
+    <path d="M20 40h260v520H20z" fill="url(#glass)"/>
+    <path d="M150 40v520M20 230h260" opacity=".28"/>
+  </g>
+  <g filter="url(#soft)" opacity=".62">
+    <ellipse cx="72" cy="782" rx="126" ry="164" fill="#ffb870"/>
+    <ellipse cx="1490" cy="742" rx="120" ry="188" fill="#d650a4" opacity=".52"/>
+  </g>
+  <g opacity=".48">
+    <path d="M118 1000c-24-106-4-231 92-333" fill="none" stroke="#a8d280" stroke-width="10" stroke-linecap="round"/>
+    <path d="M134 800c-57-42-88-52-132-52 50 48 88 64 132 52zM168 705c-56-30-91-27-132-11 55 31 92 34 132 11zM192 900c-58-34-92-35-133-14 52 35 91 40 133 14z" fill="#b7da79"/>
+    <path d="M1490 1000c18-132-20-256-110-382" fill="none" stroke="#8abc6f" stroke-width="9" stroke-linecap="round"/>
+    <path d="M1462 804c54-50 90-61 136-58-47 56-84 74-136 58zM1426 686c55-38 91-39 136-26-51 39-88 45-136 26zM1450 925c55-43 92-48 139-34-49 45-87 55-139 34z" fill="#a6cf73"/>
+  </g>
+  <g opacity=".35">
+    <rect x="1110" y="610" width="420" height="360" rx="20" fill="#0a0b14"/>
+    <rect x="1140" y="638" width="80" height="104" rx="8" fill="#4a2447"/>
+    <rect x="1240" y="638" width="180" height="20" rx="8" fill="#d89977" opacity=".28"/>
+    <rect x="1240" y="680" width="160" height="18" rx="8" fill="#9868c9" opacity=".22"/>
+    <rect x="1240" y="720" width="210" height="18" rx="8" fill="#d89977" opacity=".22"/>
+  </g>
+  <rect y="872" width="1600" height="128" fill="#130b12" opacity=".58"/>
+</svg>

@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Study OS</title>
+    <meta name="theme-color" content="#171225">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Study OS">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./assets/app-icon.svg" type="image/svg+xml">
+    <!-- Google Fonts for Dynamic Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;800&family=Space+Grotesk:wght@600;700&family=Poppins:wght@600;700;800&family=Roboto+Slab:wght@700&family=IBM+Plex+Serif:wght@600;700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+    <!-- Mermaid for Diagrams and Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./premium-styles.css">
+  </head>
+  <body>
+    <div class="scene">
+      <aside class="sidebar" aria-label="Study OS navigation">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48">
+              <path d="M21 8c6 6 8 14 6 22-1 5-4 8-9 10 8 1 15-2 19-9 5-9 2-20-6-26" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              <path d="M28 12l8 2-7 4 2 8-6-5-8 5 3-8-7-4 8-2 4-7z" fill="currentColor"/>
+            </svg>
+          </div>
+          <h1>Study OS</h1>
+        </div>
+
+        <nav class="nav-block">
+          <p class="nav-title">Main</p>
+          <a class="nav-item active" href="#home"><span data-icon="home"></span>Home</a>
+          <a class="nav-item" href="#study"><span data-icon="book"></span>Study Box</a>
+          <a class="nav-item" href="#revision"><span data-icon="repeat"></span>Revision</a>
+          <a class="nav-item" href="#planner"><span data-icon="calendar"></span>Planner</a>
+          <a class="nav-item" href="#calendar"><span data-icon="calendar-days"></span>Calendar</a>
+          <a class="nav-item" href="#resources"><span data-icon="folder"></span>Resources</a>
+        </nav>
+
+        <nav class="nav-block backend">
+          <p class="nav-title">Backend</p>
+          <a class="nav-item" href="#library"><span data-icon="book-open"></span>Study (All)</a>
+          <a class="nav-item" href="#exams"><span data-icon="spark"></span>Exams</a>
+          <a class="nav-item" href="#syllabus"><span data-icon="asterisk"></span>Syllabus</a>
+          <a class="nav-item" href="#classes"><span data-icon="monitor"></span>Online Classes</a>
+          <a class="nav-item" href="#timetable"><span data-icon="briefcase"></span>Timetable</a>
+          <a class="nav-item" href="#notes-hub"><span data-icon="note"></span>📚 Smart Notes</a>
+        </nav>
+
+        <div class="quote-card">
+          <p>"Small steps</p>
+          <p>Every day."</p>
+          <div class="sprig" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="sidebar-actions" aria-label="Quick actions">
+          <button type="button" data-action="open-add-note" aria-label="Add note"><span data-icon="edit"></span></button>
+          <button type="button" data-action="open-profile" aria-label="Settings"><span data-icon="settings"></span></button>
+          <button type="button" class="active" data-action="reset-demo" aria-label="Reset demo"><span data-icon="sun"></span></button>
+        </div>
+      </aside>
+
+      <main class="workspace" id="home">
+        <header class="topbar">
+          <div class="greeting">
+            <img src="./assets/profile-sky.svg" alt="">
+            <div>
+              <h2 id="greetingTitle">Good Evening!</h2>
+              <p id="quoteText">"Discipline today, success tomorrow."</p>
+            </div>
+          </div>
+
+          <section class="music-card" aria-label="Focus mode">
+            <img src="./assets/album-sunset.svg" alt="">
+            <div>
+              <strong>Focus Session</strong>
+              <span id="focusText">Ready to study</span>
+            </div>
+            <button type="button" data-action="focus-minus" aria-label="Shorter focus"><span data-icon="skip-back"></span></button>
+            <button type="button" class="play" data-action="toggle-focus" aria-label="Start focus timer"><span data-icon="play"></span></button>
+            <button type="button" data-action="focus-plus" aria-label="Longer focus"><span data-icon="skip-forward"></span></button>
+          </section>
+
+          <section class="time-card" aria-label="Current time">
+            <div>
+              <strong id="clock">--:--</strong>
+              <span id="dateLabel">Today</span>
+            </div>
+            <button type="button" data-action="open-profile" aria-label="Profile settings"><span data-icon="target"></span></button>
+          </section>
+        </header>
+
+        <nav class="tabbar" aria-label="Dashboard tabs">
+          <button type="button" class="active" data-scroll="#home"><span data-icon="home"></span>Home</button>
+          <button type="button" data-scroll="#study"><span data-icon="heart-hand"></span>Study</button>
+          <button type="button" data-scroll="#exams"><span data-icon="grid"></span>Exams</button>
+          <button type="button" data-scroll="#planner"><span data-icon="sliders"></span>Planner</button>
+          <button type="button" data-scroll="#classes"><span data-icon="monitor"></span>Classes</button>
+          <button type="button" data-scroll="#revision"><span data-icon="archive"></span>Revision</button>
+          <button type="button" data-scroll="#notes"><span data-icon="note"></span>Notes</button>
+          <button type="button" data-scroll="#resources"><span data-icon="folder"></span>Resources</button>
+          <button type="button" class="icon-only" data-action="export-data" aria-label="Export data"><span data-icon="star"></span></button>
+        </nav>
+
+        <section class="command-bar panel" aria-label="Quick add">
+          <button type="button" data-action="open-add-subject"><span data-icon="book"></span>Subject</button>
+          <button type="button" data-action="open-add-chapter"><span data-icon="book-open"></span>Chapter</button>
+          <button type="button" data-action="open-add-topic"><span data-icon="target"></span>Topic</button>
+          <button type="button" data-action="open-add-exam"><span data-icon="spark"></span>Exam</button>
+          <button type="button" data-action="open-add-activity"><span data-icon="calendar"></span>Plan Block</button>
+          <button type="button" data-action="open-add-class"><span data-icon="monitor"></span>Class</button>
+          <button type="button" data-action="open-add-event"><span data-icon="calendar-days"></span>Event</button>
+          <button type="button" data-action="open-notifications"><span data-icon="note"></span>Alerts</button>
+        </section>
+
+        <section class="dashboard-grid" aria-label="Study dashboard">
+          <article class="panel syllabus-panel" id="syllabus">
+            <div class="panel-heading">
+              <span class="panel-icon"><span data-icon="book-open"></span></span>
+              <div>
+                <h3>Syllabus</h3>
+                <p id="syllabusSubheading">(Upcoming Exam)</p>
+              </div>
+              <button type="button" data-action="open-add-syllabus" aria-label="Add syllabus item"><span data-icon="spark"></span></button>
+            </div>
+            <div id="syllabusContent" class="syllabus-box"></div>
+          </article>
+
+          <article class="panel exam-panel" id="exams">
+            <div class="exam-copy">
+              <div class="eyebrow"><span data-icon="spark"></span>Upcoming Exam <span>&middot;</span> <b id="examBadge">Auto</b></div>
+              <h3><span id="examNameMain">No Exam</span> <span id="examPriority">Priority</span></h3>
+              <div class="countdown" aria-label="Exam countdown">
+                <div><strong id="days">00</strong><span>Days</span></div>
+                <div><strong id="hours">00</strong><span>Hours</span></div>
+                <div><strong id="minutes">00</strong><span>Minutes</span></div>
+                <div><strong id="seconds">00</strong><span>Seconds</span></div>
+              </div>
+            </div>
+            <img class="hourglass" src="./assets/hourglass.svg" alt="Hourglass">
+            <div class="mini-exams" id="miniExams"></div>
+          </article>
+
+          <article class="panel calendar-panel" id="calendar">
+            <div class="panel-title-row">
+              <h3>Calendar</h3>
+              <button type="button" data-action="open-add-event" aria-label="Add calendar event"><span data-icon="spark"></span></button>
+            </div>
+            <div class="month-row">
+              <strong id="monthLabel">Month</strong>
+              <span>
+                <button type="button" data-action="prev-month" aria-label="Previous month"><span data-icon="chevron-left"></span></button>
+                <button type="button" data-action="today-month">Today</button>
+                <button type="button" data-action="next-month" aria-label="Next month"><span data-icon="chevron-right"></span></button>
+              </span>
+            </div>
+            <div class="calendar-grid" id="calendarGrid"></div>
+            <div class="legend">
+              <span class="dot exam"></span>Exam
+              <span class="dot class"></span>Class
+              <span class="dot important"></span>Important
+              <span class="dot event"></span>Event
+            </div>
+          </article>
+
+          <article class="panel classes-panel" id="classes">
+            <div class="panel-title-row">
+              <h3>Online Class <span>(Today)</span></h3>
+              <button type="button" data-action="open-add-class" aria-label="Add class"><span data-icon="spark"></span></button>
+            </div>
+            <div class="class-list" id="classesTodayList"></div>
+            <button type="button" class="wide-button" data-scroll="#timetable">View Full Timetable <span data-icon="arrow-right"></span></button>
+          </article>
+
+          <article class="panel pw-classes-panel" id="pw-classes">
+            <div class="panel-heading">
+              <span class="panel-icon"><span data-icon="monitor"></span></span>
+              <div>
+                <h3>PW Classes</h3>
+                <p>Quick access to upcoming events</p>
+              </div>
+            </div>
+            <button type="button" class="pw-button" data-action="open-pw-classes" aria-label="Open PW video player upcoming events">
+              <span data-icon="monitor"></span>
+              <span>📺 View Upcoming Events</span>
+            </button>
+          </article>
+
+          <article class="panel tracker-panel">
+            <div class="panel-title-row">
+              <h3>Study Tracker</h3>
+              <select id="trackerRange" aria-label="Study tracker range">
+                <option value="week">This Week</option>
+                <option value="today">Today</option>
+              </select>
+            </div>
+            <div class="chart" id="studyChart"></div>
+            <div class="days-row" id="studyDays"></div>
+          </article>
+
+          <article class="panel week-panel" id="planner">
+            <div class="panel-title-row">
+              <h3>Week Planner</h3>
+              <button type="button" data-action="open-add-task" aria-label="Add weekly task"><span data-icon="spark"></span></button>
+            </div>
+            <div id="weekPlannerList"></div>
+          </article>
+
+          <article class="panel daily-panel" id="timetable">
+            <div class="panel-title-row">
+              <h3>Daily Tracker <span id="dailyDayLabel">&middot; Today</span></h3>
+              <div class="sun-dot" aria-hidden="true"></div>
+              <button type="button" data-action="open-add-activity" aria-label="Add daily block"><span data-icon="spark"></span></button>
+            </div>
+            <div class="timeline">
+              <div class="time-rail" id="timeRail"></div>
+              <div class="schedule" id="scheduleList"></div>
+            </div>
+          </article>
+
+          <article class="panel study-panel" id="study">
+            <div class="panel-title-row">
+              <h3>Study Box</h3>
+              <button type="button" data-action="open-add-topic" aria-label="Add topic"><span data-icon="spark"></span></button>
+            </div>
+            <div class="study-controls">
+              <label>Subject<select id="subjectSelect"></select></label>
+              <label>Chapter<select id="chapterSelect"></select></label>
+              <label>Topic<select id="topicSelect"></select></label>
+            </div>
+            <div id="studyCrumbs" class="crumbs"></div>
+            <div id="topicCard" class="topic-card"></div>
+            <div class="study-actions">
+              <button type="button" data-action="start-topic">Start</button>
+              <button type="button" data-action="complete-topic">Complete</button>
+            </div>
+          </article>
+
+          <article class="panel revision-panel" id="revision">
+            <div class="panel-title-row">
+              <h3>Revision <span>(Auto)</span></h3>
+              <button type="button" data-action="open-add-activity-revision" aria-label="Plan revision"><span data-icon="refresh"></span></button>
+            </div>
+            <div class="revision-list" id="revisionList"></div>
+            <button type="button" class="wide-button" data-scroll="#library">View All <span data-icon="arrow-right"></span></button>
+          </article>
+
+          <article class="panel spotify-panel" id="spotify">
+            <div class="panel-title-row">
+              <h3>Focus Music</h3>
+              <button type="button" aria-label="Open Spotify"><span data-icon="spark"></span></button>
+            </div>
+            <div class="spotify-frame">
+              <iframe
+                src="https://open.spotify.com/embed/artist/00FQb4jTyendYWaN8pK0wa?utm_source=generator" 
+                frameborder="5"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+              ></iframe>
+            </div>
+            <p class="spotify-note">✨ Curated focus playlist to keep you motivated while studying</p>
+          </article>
+
+          <aside class="quick-note" id="notes">
+            <div class="pin" aria-hidden="true"></div>
+            <div class="note-heading">
+              <h3>Quick Notes</h3>
+              <button type="button" data-action="open-add-note" aria-label="Add note">+</button>
+            </div>
+            <div class="notes-container">
+              <ul id="notesList"></ul>
+            </div>
+            <div class="note-sprig" aria-hidden="true"></div>
+          </aside>
+        </section>
+
+        <section class="manager-grid" id="resources" aria-label="Study management">
+          <article class="panel manager-card" id="library">
+            <div class="panel-title-row">
+              <h3>Study Library</h3>
+              <button type="button" data-action="open-add-topic"><span data-icon="spark"></span></button>
+            </div>
+            <div id="libraryList" class="data-list"></div>
+          </article>
+
+          <article class="panel manager-card">
+            <div class="panel-title-row">
+              <h3>Exam Manager</h3>
+              <button type="button" data-action="open-add-exam"><span data-icon="spark"></span></button>
+            </div>
+            <div id="examManagerList" class="data-list"></div>
+          </article>
+
+          <article class="panel manager-card">
+            <div class="panel-title-row">
+              <h3>All Timetable</h3>
+              <button type="button" data-action="open-add-activity"><span data-icon="spark"></span></button>
+            </div>
+            <div id="activityManagerList" class="data-list"></div>
+          </article>
+        </section>
+
+        <!-- Smart Notes Hub -->
+        <section class="smart-notes-hub" id="notes-hub" aria-label="Comprehensive study notes">
+          <div class="notes-header">
+            <h2 class="notes-title">📚 Smart Notes Hub</h2>
+            <p class="notes-subtitle">Subject-wise • Chapter-wise • Topic-wise</p>
+          </div>
+
+          <div class="notes-controls">
+            <div class="notes-filters">
+              <select id="notesSubjectFilter" class="filter-select" aria-label="Filter by subject">
+                <option value="">All Subjects</option>
+              </select>
+              <select id="notesChapterFilter" class="filter-select" aria-label="Filter by chapter">
+                <option value="">All Chapters</option>
+              </select>
+              <select id="noteTypeFilter" class="filter-select" aria-label="Note type">
+                <option value="all">All Note Types</option>
+                <option value="short">📝 Short Notes</option>
+                <option value="detailed">📖 Detailed Notes</option>
+                <option value="revision">⚡ Quick Revision</option>
+              </select>
+            </div>
+            <button type="button" class="notes-add-btn" data-action="open-add-smart-note">+ Create Note</button>
+          </div>
+
+          <div class="notes-container">
+            <div class="notes-sidebar">
+              <div class="notes-tree" id="notesTree"></div>
+            </div>
+            <div class="notes-main">
+              <div class="note-viewer" id="noteViewer">
+                <div class="empty-note-state">
+                  <p>Select a topic to view notes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="modal-backdrop" id="modalBackdrop" hidden>
+      <section class="modal panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-head">
+          <h3 id="modalTitle">Add</h3>
+          <button type="button" data-action="close-modal" aria-label="Close"><span data-icon="x"></span></button>
+        </div>
+        <div id="modalBody"></div>
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+    <script src="./notes-hub.js"></script>
+    <script>
+      // Real-time Hourglass Animation
+      let hourglassAnimationFrame;
+      function updateHourglassRealTime() {
+        const exam = selectedExam ? selectedExam() : null;
+        if (!exam) {
+          cancelAnimationFrame(hourglassAnimationFrame);
+          return;
+        }
+        
+        const target = new Date(`${exam.date}T08:00:00`);
+        const totalMs = target - new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate(), 0, 0, 0);
+        const remaining = Math.max(0, target - new Date());
+        const progress = ((totalMs - remaining) / totalMs) * 100;
+        const hourglass = document.querySelector('.hourglass');
+        
+        if (hourglass) {
+          hourglass.style.setProperty('--sand-progress', progress + '%');
+          const urgency = Math.ceil(remaining / (24 * 60 * 60 * 1000));
+          const speed = urgency < 2 ? 2 : urgency < 7 ? 3 : 4;
+          hourglass.style.setProperty('--anim-speed', speed + 's');
+        }
+        
+        hourglassAnimationFrame = requestAnimationFrame(updateHourglassRealTime);
+      }
+      
+      // Start hourglass animation when page loads
+      window.addEventListener('load', updateHourglassRealTime);
+      // Update hourglass every second
+      setInterval(updateHourglassRealTime, 1000);
+    </script>
+  </body>
+</html>

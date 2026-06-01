@@ -1,0 +1,20 @@
+{
+  "name": "Study OS - Student Study Manager",
+  "short_name": "Study OS",
+  "description": "A cozy student dashboard for subjects, exams, timetable, revision, notes, and study tracking.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#171225",
+  "background_color": "#110c18",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "./assets/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

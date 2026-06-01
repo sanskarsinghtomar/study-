@@ -1,0 +1,370 @@
+{
+  "generated": true,
+  "notes": [
+    {
+      "id": "7cc62033-c343-48f8-9250-041f342f5808",
+      "subject": "Physics",
+      "chapter": "Electrostatics",
+      "topic": "Electric Charge",
+      "title": "Electric Charge — Physics",
+      "overview": "This note covers Electric Charge from Electrostatics in Physics. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Electric Charge from Electrostatics in Physics. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Electric Charge.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Electric Charge.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Electric Charge] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "12008c97-3e27-43b5-961a-8ce388789fb1",
+      "subject": "Physics",
+      "chapter": "Electrostatics",
+      "topic": "Electric Field",
+      "title": "Electric Field — Physics",
+      "overview": "This note covers Electric Field from Electrostatics in Physics. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Electric Field from Electrostatics in Physics. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Electric Field.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Electric Field.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Electric Field] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "92c3b678-90ab-4af0-a27e-6a27cf86aeaa",
+      "subject": "Physics",
+      "chapter": "Electrostatics",
+      "topic": "Coulomb's Law",
+      "title": "Coulomb's Law — Physics",
+      "overview": "This note covers Coulomb's Law from Electrostatics in Physics. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Coulomb's Law from Electrostatics in Physics. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Coulomb's Law.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Coulomb's Law.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Coulomb's Law] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "d97765c3-060f-4353-8840-a18ca1e018fa",
+      "subject": "Physics",
+      "chapter": "Electrostatics",
+      "topic": "Capacitance",
+      "title": "Capacitance — Physics",
+      "overview": "This note covers Capacitance from Electrostatics in Physics. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Capacitance from Electrostatics in Physics. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Capacitance.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Capacitance.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Capacitance] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "8939262c-4166-469d-8217-c885c875c0d8",
+      "subject": "Physics",
+      "chapter": "Motion",
+      "topic": "Kinematics",
+      "title": "Kinematics — Physics",
+      "overview": "This note covers Kinematics from Motion in Physics. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Kinematics from Motion in Physics. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Kinematics.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Kinematics.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Kinematics] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "4f0634d3-4d1f-4459-8f76-fa6bbc759737",
+      "subject": "Physics",
+      "chapter": "Motion",
+      "topic": "Dynamics",
+      "title": "Dynamics — Physics",
+      "overview": "This note covers Dynamics from Motion in Physics. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Dynamics from Motion in Physics. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Dynamics.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Dynamics.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Dynamics] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "c55ab659-13d3-4b03-88dc-cf37565eb68b",
+      "subject": "Physics",
+      "chapter": "Motion",
+      "topic": "Work and Energy",
+      "title": "Work and Energy — Physics",
+      "overview": "This note covers Work and Energy from Motion in Physics. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Work and Energy from Motion in Physics. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Work and Energy.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Work and Energy.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Work and Energy] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "fc716263-243f-4388-b146-ba21f68638dc",
+      "subject": "Chemistry",
+      "chapter": "Solutions",
+      "topic": "Concentration",
+      "title": "Concentration — Chemistry",
+      "overview": "This note covers Concentration from Solutions in Chemistry. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Concentration from Solutions in Chemistry. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Concentration.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Concentration.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Concentration] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "188eaa2f-8362-4462-922a-4ac086ce9208",
+      "subject": "Chemistry",
+      "chapter": "Solutions",
+      "topic": "Solubility",
+      "title": "Solubility — Chemistry",
+      "overview": "This note covers Solubility from Solutions in Chemistry. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Solubility from Solutions in Chemistry. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Solubility.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Solubility.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Solubility] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "cd38597e-1daf-42cf-94b8-69ac7b16df97",
+      "subject": "Chemistry",
+      "chapter": "Solutions",
+      "topic": "Molarity",
+      "title": "Molarity — Chemistry",
+      "overview": "This note covers Molarity from Solutions in Chemistry. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Molarity from Solutions in Chemistry. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Molarity.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Molarity.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Molarity] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "cefbb7dc-c768-4e83-a3f3-5d80f60b6a1d",
+      "subject": "Chemistry",
+      "chapter": "Organic Chemistry",
+      "topic": "Hydrocarbons",
+      "title": "Hydrocarbons — Chemistry",
+      "overview": "This note covers Hydrocarbons from Organic Chemistry in Chemistry. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Hydrocarbons from Organic Chemistry in Chemistry. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Hydrocarbons.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Hydrocarbons.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Hydrocarbons] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "716646c9-a446-4ca6-a364-b3bf4493ed89",
+      "subject": "Chemistry",
+      "chapter": "Organic Chemistry",
+      "topic": "Functional Groups",
+      "title": "Functional Groups — Chemistry",
+      "overview": "This note covers Functional Groups from Organic Chemistry in Chemistry. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Functional Groups from Organic Chemistry in Chemistry. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Functional Groups.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Functional Groups.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Functional Groups] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "a5f16d48-762a-496e-838f-f7622c589bff",
+      "subject": "Maths",
+      "chapter": "Real Numbers",
+      "topic": "Number Systems",
+      "title": "Number Systems — Maths",
+      "overview": "This note covers Number Systems from Real Numbers in Maths. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Number Systems from Real Numbers in Maths. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Number Systems.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Number Systems.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Number Systems] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "0d7bdfe4-c68c-4b56-b88f-43a2cf19aa93",
+      "subject": "Maths",
+      "chapter": "Real Numbers",
+      "topic": "Laws of Exponents",
+      "title": "Laws of Exponents — Maths",
+      "overview": "This note covers Laws of Exponents from Real Numbers in Maths. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Laws of Exponents from Real Numbers in Maths. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Laws of Exponents.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Laws of Exponents.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Laws of Exponents] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "8c8a640d-1286-4418-89cd-83b3434243a8",
+      "subject": "Maths",
+      "chapter": "Polynomial Functions",
+      "topic": "Quadratic Equations",
+      "title": "Quadratic Equations — Maths",
+      "overview": "This note covers Quadratic Equations from Polynomial Functions in Maths. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Quadratic Equations from Polynomial Functions in Maths. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Quadratic Equations.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Quadratic Equations.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Quadratic Equations] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "60907c40-69bc-4647-bb8b-e20efc576644",
+      "subject": "Maths",
+      "chapter": "Polynomial Functions",
+      "topic": "Factorization",
+      "title": "Factorization — Maths",
+      "overview": "This note covers Factorization from Polynomial Functions in Maths. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Factorization from Polynomial Functions in Maths. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Factorization.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Factorization.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Factorization] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "d092c79f-a3bc-40d9-905e-d2836670065c",
+      "subject": "Biology",
+      "chapter": "Cell Structure",
+      "topic": "Cell Organelles",
+      "title": "Cell Organelles — Biology",
+      "overview": "This note covers Cell Organelles from Cell Structure in Biology. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Cell Organelles from Cell Structure in Biology. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Cell Organelles.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Cell Organelles.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Cell Organelles] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "8a0e0f5e-ae52-486f-b509-66c693a6a1e7",
+      "subject": "Biology",
+      "chapter": "Cell Structure",
+      "topic": "Cell Division",
+      "title": "Cell Division — Biology",
+      "overview": "This note covers Cell Division from Cell Structure in Biology. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Cell Division from Cell Structure in Biology. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Cell Division.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Cell Division.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Cell Division] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "da70a7c7-3cf5-4c53-9584-96996a1ac61e",
+      "subject": "English",
+      "chapter": "Writing Skills",
+      "topic": "Formal Letters",
+      "title": "Formal Letters — English",
+      "overview": "This note covers Formal Letters from Writing Skills in English. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Formal Letters from Writing Skills in English. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Formal Letters.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Formal Letters.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Formal Letters] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    },
+    {
+      "id": "79e63945-e085-4ce9-bbb9-cbb39ec66408",
+      "subject": "English",
+      "chapter": "Writing Skills",
+      "topic": "Essay Writing",
+      "title": "Essay Writing — English",
+      "overview": "This note covers Essay Writing from Writing Skills in English. It explains the main ideas, key terms, and practice directions.",
+      "content": "This note covers Essay Writing from Writing Skills in English. It explains the main ideas, key terms, and practice directions.\n\nKey Concepts:\n- Understand the definition of Essay Writing.\n- Identify the main formulas and examples.\n- Use simple diagrams to remember core relationships.\n- Review sample problems and steps for revision.",
+      "key_points": [
+        "Understand the definition of Essay Writing.",
+        "Identify the main formulas and examples.",
+        "Use simple diagrams to remember core relationships.",
+        "Review sample problems and steps for revision."
+      ],
+      "diagram": "flowchart LR\n  A[Essay Writing] --> B[Concept]\n  B --> C[Example]\n  C --> D[Practice]\n  D --> E[Review]",
+      "created_at": "2026-06-01T00:00:00Z",
+      "type": "detailed"
+    }
+  ],
+  "summary": {
+    "subjects": 5,
+    "chapters": 8,
+    "notes": 20
+  }
+}
